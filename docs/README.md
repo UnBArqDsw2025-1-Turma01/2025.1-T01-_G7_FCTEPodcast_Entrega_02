@@ -1,17 +1,4 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_02)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2025.1(T01)_G1_Embarcado_Entrega_02*. !!**  
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+# FTCEPodcast 🎙️
 
 **Código da Disciplina**: FGA0208<br>
 **Número do Grupo**: 07<br>
@@ -19,18 +6,17 @@ Demais diretrizes constam no Moodle.
 
 ## Alunos
 
-| Nome | Foto (Avatar) | GitHub |
-|------|---------------|--------|
-| Gustavo Costa | ![Gustavo Costa](https://avatars.githubusercontent.com/u/101185927?v=4) | [github.com/cwtshh](https://github.com/cwtshh) |
-| Harleny Angéllica Araújo de Sousa | ![Harleny](https://avatars.githubusercontent.com/u/101184511?v=4) | [github.com/Angelicahaas](https://github.com/Angelicahaas) |
-| Iderlan Junio Cardoso da Silva | ![Iderlan](https://avatars.githubusercontent.com/u/101422838?v=4) | [github.com/IderlanJ](https://github.com/IderlanJ) |
-| Marcella Sousa Anderle | ![Marcella](https://avatars.githubusercontent.com/u/144747380?v=4) | [github.com/marcellaanderle](https://github.com/marcellaanderle) |
-| Natália Rodrigues de Morais | ![Natália](https://avatars.githubusercontent.com/u/137426012?v=4) | [github.com/Natyrodrigues](https://github.com/Natyrodrigues) |
-| Mateus de Siqueira Silva | ![Mateus](https://avatars.githubusercontent.com/u/43494763?v=4) | [github.com/siqueira-prog](https://github.com/siqueira-prog) |
-| Rafael Kenji Taira | ![Rafael](https://avatars.githubusercontent.com/u/79025349?v=4) | [github.com/rafa-kenji](https://github.com/rafa-kenji) |
-| Joao Paulo Barros de Cristo | ![Joao Paulo](https://avatars.githubusercontent.com/u/70647018?v=4) | [github.com/joaopb1-xps](https://github.com/joaopb1-xps) |
-| Joyce Dionizio | ![Joyce](https://avatars.githubusercontent.com/u/155927112?v=4) | [github.com/joycejdm](https://github.com/joycejdm) |
-
+| Foto                                                              | Matrícula     | Aluno                             |
+|-------------------------------------------------------------------|---------------|-----------------------------------|
+| <img src="https://avatars.githubusercontent.com/u/101185927?v=4" height="70"> | 211061814    | Gustavo Costa                     |
+| <img src="https://avatars.githubusercontent.com/u/101184511?v=4" height="70"> | 211061832    | Harleny Angéllica                 |
+| <img src="https://avatars.githubusercontent.com/u/101422838?v=4" height="70"> | 211062947    | Iderlan Junio Cardoso da Silva    |
+| <img src="https://avatars.githubusercontent.com/u/144747380?v=4" height="70"> | 221035040    | Marcella Sousa Anderle            |
+| <img src="https://avatars.githubusercontent.com/u/137426012?v=4" height="70"> | 221037975    | Natália Rodrigues de Morais       |
+| <img src="https://avatars.githubusercontent.com/u/43494763?v=4" height="70"> | 200024787    | Mateus de Siqueira Silva          |
+| <img src="https://avatars.githubusercontent.com/u/79025349?v=4" height="70"> | 190044128    | Rafael Kenji Taira                |
+| <img src="https://avatars.githubusercontent.com/u/70647018?v=4" height="70"> | 202023805    | Joao Paulo Barros de Cristo       |
+| <img src="https://avatars.githubusercontent.com/u/155927112?v=4" height="70"> | 211063176    | Joyce Dionizio                    |
 
 ## Sobre 
 
