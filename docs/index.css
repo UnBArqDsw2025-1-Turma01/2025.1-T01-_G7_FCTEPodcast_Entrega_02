@@ -1,0 +1,63 @@
+:root {
+    /* Color
+    ------------------------------------------------------------------------- */
+    /* Monochrome */
+    --mono-hue        : 113;
+    --mono-saturation : 0%;
+  
+    /* Monochrome shades (darker) e tints (lighter) */
+    --mono-shade3     : #29253b;
+    --mono-shade2     : #413b5e;
+    --mono-shade1     : #595180;
+    --mono-base       : #7166a3;
+    --mono-tint1      : #9e93cf;
+    --mono-tint2      : #c7c1e3;
+    --mono-tint3      : #f0eff8;
+  
+    /* Theme */
+    --theme-hue        : 204;
+    --theme-saturation : 90%;
+    --theme-lightness  : 45%;
+    --theme-color      : #7828c8;
+  
+    /* Typography
+    ------------------------------------------------------------------------- */
+    --modular-scale    : 1.333;
+  
+    /* Module Scale Calculations (do not edit these) */
+    --modular-scale--2 : calc(var(--modular-scale--1) / var(--modular-scale));
+    --modular-scale--1 : calc(var(--modular-scale-1) / var(--modular-scale));
+    --modular-scale-1  : 1rem;
+    --modular-scale-2  : calc(var(--modular-scale-1) * var(--modular-scale));
+    --modular-scale-3  : calc(var(--modular-scale-2) * var(--modular-scale));
+    --modular-scale-4  : calc(var(--modular-scale-3) * var(--modular-scale));
+    --modular-scale-5  : calc(var(--modular-scale-4) * var(--modular-scale));
+  
+    /* Font size */
+    --font-size-xxxl   : var(--modular-scale-5);
+    --font-size-xxl    : var(--modular-scale-4);
+    --font-size-xl     : var(--modular-scale-3);
+    --font-size-l      : var(--modular-scale-2);
+    --font-size-m      : var(--modular-scale-1);
+    --font-size-s      : var(--modular-scale--1);
+    --font-size-xs     : var(--modular-scale--2);
+  
+    /* Utility
+    ------------------------------------------------------------------------- */
+    --border-radius-s  : 4px;
+    --border-radius-m  : 8px;
+    --border-radius-l  : 16px;
+  
+    /* Animations and transitions */
+    --duration-slow    : 1s;
+    --duration-medium  : 0.5s;
+    --duration-fast    : 0.25s;
+  
+    /* Misc
+    ------------------------------------------------------------------------- */
+    --spinner-size                 : 60px;
+    --spinner-track-width         : 4px;
+    --spinner-track-color         : rgba(0, 0, 0, 0.15);
+    --spinner-transition-duration : var(--duration-medium);
+  }
+  
