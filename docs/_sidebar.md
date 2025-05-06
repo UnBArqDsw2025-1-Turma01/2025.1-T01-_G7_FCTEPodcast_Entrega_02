@@ -10,3 +10,4 @@
     - [2.3. Modelagem UML Organizacional ou Casos de Uso](/docs/Modelagem/2.3.ModelagemOrganizacionalCasosDeUso.md)
     - [2.4. Participações - Modelagem](/docs/Modelagem/2.4.ParticipacoesModelagem.md)
     - [2.5. Iniciativas Extras - Modelagem](/docs/Modelagem/2.5.IniciativasExtras.md)
+    - [2.6. Reuniões - Atas](/docs/Modelagem/2.6.Reunioes.md)
