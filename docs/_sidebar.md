@@ -1,9 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/docs)
-- [Projetos](/docs/Projeto/Projeto.md)
+- [🏠 **Home**](docs)
+- [🛠️ **Projetos**](/docs/Projeto/Projeto.md)
 
-- **Modelagem**
+- 📐 **Modelagem**
   - [2. Desenho de Software (Modelagem)](Modelagem/2.Modelagem.md)
     - [2.1. Modelagem UML Estática](/docs/Modelagem/2.1.ModelagemEstatica.md)
     - [2.2. Modelagem UML Dinâmica](/docs/Modelagem/2.2.ModelagemDinamica.md)
