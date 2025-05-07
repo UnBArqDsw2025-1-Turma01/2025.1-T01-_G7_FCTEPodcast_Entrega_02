@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [🏠 **Home**](docs)
+- [🏠 **Home**](README.md)
 - [🛠️ **Projetos**](/docs/Projeto/Projeto.md)
 
 - 📐 **Modelagem**

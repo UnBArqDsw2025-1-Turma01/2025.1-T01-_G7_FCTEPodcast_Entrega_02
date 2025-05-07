@@ -142,3 +142,4 @@ Quaisquer outras informações adicionais podem ser descritas nessa seção.
 | Versão |    Data    |        Descrição         |    Autor(es)    |  Revisor(es)     |  Detalhes da Revisão  |  
 | :----: | :--------: | :----------------------: | :-------------: | :----------------| :---------------------|
 |  1.0   | 06/05/2025 |   Criação do documento   | Gustavo Costa | Harleny Angéllica  | Versionamento revisado, e adicionado fotos dos participantes|
+|  1.1   | 07/05/2025 |   Conserto de roteamento de documentação | Gustavo Costa, Harleny Angéllica | Iderlan Junio | Roteamento revisado, rotas estão funcionando corretamente | 
