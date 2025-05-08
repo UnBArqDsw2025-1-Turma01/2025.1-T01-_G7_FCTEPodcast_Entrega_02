@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  frontend:
+    container_name: ftcepodcast_frontend
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    ports:
+      - "80:80"
+    volumes:
+      - ./frontend:/app
+    env_file:
+      - .env
+    
+  api:
+    container_name: ftcepodcast_api
+    build: 
+      context: ./api
+      dockerfile: Dockerfile.dev
+    ports:
+      - "${API_PORT}:${API_PORT}"
+    volumes:
+      - ./api:/app
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+  db:
+    container_name: ftcepodcast_db
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - db_data:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGO_INITDB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGO_INITDB_ROOT_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    restart: always
+    env_file:
+      - .env
+
+  mongo_express:
+    container_name: ftcepodcast_mongo_express
+    image: mongo-express:latest
+    ports:
+      - "8081:8081"
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://${MONGO_INITDB_ROOT_USERNAME}:${MONGO_INITDB_ROOT_PASSWORD}@db:27017/?authSource=admin
+      ME_CONFIG_BASICAUTH_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      ME_CONFIG_BASICAUTH_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+    depends_on:
+      - db
+
+volumes:
+  db_data:
