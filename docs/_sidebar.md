@@ -9,4 +9,5 @@
   - [Modelagem UML Organizacional ou Casos de Uso](Modelagem/2.3.ModelagemOrganizacionalCasosDeUso.md)
   - [Participações - Modelagem](Modelagem/2.4.ParticipacoesModelagem.md)
   - [Iniciativas Extras - Modelagem](Modelagem/2.5.IniciativasExtras.md)
+  - [Correções - Primeira Entrega](Modelagem/CorrecoesPrimeiraEntrega.md)
   - [Reuniões - Atas](Modelagem/2.6.Reunioes.md)
