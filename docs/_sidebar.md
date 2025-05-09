@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 - [🏠 **Home**](README.md)
-- [🛠️ **Projetos**](/docs/Projeto/Projeto.md)
 
 - 📐 **Modelagem**
   - [Modelagem UML Estática](Modelagem/2.1.ModelagemEstatica.md)
